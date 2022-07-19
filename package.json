@@ -1,16 +1,21 @@
 {
-  "name": "egg-clap-sql",
+  "name": "@clapjs/egg-sql",
   "version": "1.0.0",
   "description": "",
   "eggPlugin": {
-    "name": "clapSql"
+    "name": "sql"
   },
   "keywords": [
     "egg",
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mssql": "^8.1.2",
+    "mysql": "^2.18.1",
+    "oracledb": "^5.4.0"
+  },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -44,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-clap-sql.git"
+    "url": "git+https://github.com/eggjs/egg-sql.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-clap-sql#readme",
+  "homepage": "https://github.com/eggjs/egg-sql#readme",
   "author": "",
   "license": "MIT"
 }

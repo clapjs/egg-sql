@@ -2,11 +2,11 @@
 
 const mock = require('egg-mock');
 
-describe('test/clap-sql.test.js', () => {
+describe('test/sql.test.js', () => {
   let app;
   before(() => {
     app = mock.app({
-      baseDir: 'apps/clap-sql-test',
+      baseDir: 'apps/sql-test',
     });
     return app.ready();
   });
@@ -17,7 +17,7 @@ describe('test/clap-sql.test.js', () => {
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, clapSql')
+      .expect('hi, sql')
       .expect(200);
   });
 });

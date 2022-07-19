@@ -1,4 +1,4 @@
-# egg-clap-sql
+# egg-sql
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-clap-sql.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-clap-sql
-[travis-image]: https://img.shields.io/travis/eggjs/egg-clap-sql.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-clap-sql
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-clap-sql.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-clap-sql?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-clap-sql.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-clap-sql
-[snyk-image]: https://snyk.io/test/npm/egg-clap-sql/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-clap-sql
-[download-image]: https://img.shields.io/npm/dm/egg-clap-sql.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-clap-sql
+[npm-image]: https://img.shields.io/npm/v/egg-sql.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-sql
+[travis-image]: https://img.shields.io/travis/eggjs/egg-sql.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-sql
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-sql.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-sql?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-sql.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-sql
+[snyk-image]: https://snyk.io/test/npm/egg-sql/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-sql
+[download-image]: https://img.shields.io/npm/dm/egg-sql.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-sql
 
 <!--
 Description here.
@@ -27,16 +27,16 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-clap-sql --save
+$ npm i egg-sql --save
 ```
 
 ## Usage
 
 ```js
 // {app_root}/config/plugin.js
-exports.clapSql = {
+exports.sql = {
   enable: true,
-  package: 'egg-clap-sql',
+  package: 'egg-sql',
 };
 ```
 
@@ -44,7 +44,7 @@ exports.clapSql = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.clapSql = {
+exports.sql = {
 };
 ```
 

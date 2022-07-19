@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * egg-clap-sql default config
- * @member Config#clapSql
+ * egg-sql default config
+ * @member Config#sql
  * @property {String} SOME_KEY - some description
  */
-exports.clapSql = {
+exports.sql = {
     // Single Database
     // client: {
     //   host: 'host',
